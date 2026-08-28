@@ -1,86 +1,700 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>10 Receitas Low Carb</title>
+
+    <title>LK Tênis | O futuro começa nos seus pés</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
 
-    <main class="card">
+<header>
+    <nav class="navbar">
 
-        <div class="banner">
+        <a href="#inicio" class="logo">
+            LK<span>®</span>
+        </a>
 
-            <img src="capa.png" alt="Receitas Low Carb">
-
-            <div class="fade"></div>
-
+        <div class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#beneficios">Benefícios</a>
+            <a href="#produtos">Produtos</a>
         </div>
 
-        <div class="conteudo">
+        <div class="nav-actions">
 
-            <span class="categoria">
-                Alimentação Saudável
-            </span>
+            <button class="account-toggle" id="accountToggle" aria-label="Minha conta">
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <circle cx="12" cy="8" r="4"/>
+                    <path d="M4 20c0-4.4 3.6-7 8-7s8 2.6 8 7"/>
+                </svg>
+                <span class="account-toggle-label" id="accountToggleLabel">Entrar</span>
+            </button>
 
-            <h1>
-                10 RECEITAS
-                <span>LOW-CARB</span>
-            </h1>
+            <button class="cart-toggle" id="cartToggle" aria-label="Abrir carrinho">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M6 6h15l-1.5 9h-12z"/>
+                    <path d="M6 6 4.5 2H2"/>
+                    <circle cx="9.5" cy="20" r="1.4"/>
+                    <circle cx="17.5" cy="20" r="1.4"/>
+                </svg>
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
 
-            <p class="sub">
-                2026 — Sabor e saúde todos os dias
-            </p>
-
-            <ul>
-
-                <li>
-                    <i class="fa-solid fa-check"></i>
-                    Receitas práticas e deliciosas
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-check"></i>
-                    Fáceis e rápidas de preparar
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-check"></i>
-                    Menos carboidratos, mais qualidade de vida
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-check"></i>
-                    Opções para todas as refeições
-                </li>
-
-            </ul>
-
-            <a href="https://pay.cakto.com.br/3cmbn3g_1011034" class="btn">
-                ACESSAR AGORA
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <a href="#produtos" class="nav-btn">
+                Comprar agora
             </a>
 
-            <small>
-                Acesse onde e quando quiser
-            </small>
+        </div>
+
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-text">
+
+            <div class="label">
+                NOVA GERAÇÃO
+            </div>
+
+            <h1>
+                O futuro
+                <br>
+                começa nos
+                <strong>seus pés.</strong>
+            </h1>
+
+            <p>
+                Conheça a linha LK Tênis, criada para unir
+                tecnologia, conforto e desempenho em
+                um design inspirado no futuro.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#produtos" class="primary-btn">
+                    Ver produtos
+                    <span>→</span>
+                </a>
+
+                <a href="#tecnologia" class="secondary-btn">
+                    Descobrir tecnologia
+                </a>
+
+            </div>
+
+            <div class="hero-info">
+
+                <div>
+                    <strong>360°</strong>
+                    <small>FLEXIBILIDADE</small>
+                </div>
+
+                <div>
+                    <strong>∞</strong>
+                    <small>CONFORTO</small>
+                </div>
+
+                <div>
+                    <strong>02</strong>
+                    <small>MODELOS</small>
+                </div>
+
+            </div>
 
         </div>
 
-    </main>
+
+        <!-- PRODUTO -->
+
+        <div class="product-display">
+
+            <div class="purple-glow"></div>
+
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+            <div class="cylinder cylinder-a"></div>
+            <div class="cylinder cylinder-b"></div>
+            <div class="cylinder cylinder-c"></div>
+
+            <div class="product-number">
+                01
+            </div>
+
+            <img
+                src="WhatsApp_Image_2026-08-28_at_09.54.35-removebg-preview (3).png"
+                alt="LK Tênis branco e roxo"
+                class="product-image"
+            >
+
+            <div class="floating-card">
+
+                <span class="dot"></span>
+
+                <div>
+                    <strong>LK PERFORMANCE</strong>
+                    <small>Tecnologia inteligente</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MARQUEE -->
+
+    <section class="marquee">
+
+        <div>TECNOLOGIA</div>
+        <span>✦</span>
+
+        <div>CONFORTO</div>
+        <span>✦</span>
+
+        <div>PERFORMANCE</div>
+        <span>✦</span>
+
+        <div>DESIGN</div>
+        <span>✦</span>
+
+        <div>TECNOLOGIA</div>
+
+    </section>
+
+
+    <!-- TECNOLOGIA -->
+
+    <section class="technology" id="tecnologia">
+
+        <div class="cylinder cylinder-tech"></div>
+
+        <div class="section-title reveal">
+
+            <span>TECNOLOGIA LK</span>
+
+            <h2>
+                Projetado para
+                <strong>ir além.</strong>
+            </h2>
+
+            <p>
+                Cada detalhe do LK Tênis foi pensado
+                para transformar a maneira como você
+                se movimenta.
+            </p>
+
+        </div>
+
+
+        <div class="technology-grid">
+
+            <article class="tech-card reveal">
+
+                <div class="tech-icon">◉</div>
+
+                <span>01</span>
+
+                <h3>Flex Mesh 360°</h3>
+
+                <p>
+                    Estrutura flexível que acompanha
+                    o movimento natural dos seus pés.
+                </p>
+
+            </article>
+
+
+            <article class="tech-card highlight reveal">
+
+                <div class="tech-icon">⚡</div>
+
+                <span>02</span>
+
+                <h3>Performance</h3>
+
+                <p>
+                    Construído para oferecer resposta,
+                    estabilidade e leveza durante
+                    seus movimentos.
+                </p>
+
+            </article>
+
+
+            <article class="tech-card reveal">
+
+                <div class="tech-icon">♢</div>
+
+                <span>03</span>
+
+                <h3>Conforto premium</h3>
+
+                <p>
+                    Materiais desenvolvidos para
+                    proporcionar uma experiência
+                    confortável durante o dia.
+                </p>
+
+            </article>
+
+
+            <article class="tech-card reveal">
+
+                <div class="tech-icon">✦</div>
+
+                <span>04</span>
+
+                <h3>Design futurista</h3>
+
+                <p>
+                    Uma estética moderna que combina
+                    linhas esportivas com tecnologia.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- BENEFÍCIOS -->
+
+    <section class="benefits" id="beneficios">
+
+        <div class="benefit-image reveal">
+
+            <div class="image-glow"></div>
+
+            <div class="cylinder cylinder-benefit"></div>
+
+            <img
+                src="ChatGPT_Image_28_de_ago._de_2026__15_45_08-removebg-preview.png"
+                alt="Detalhes do LK Tênis"
+            >
+
+        </div>
+
+
+        <div class="benefit-text reveal">
+
+            <span>POR QUE LK?</span>
+
+            <h2>
+                Mais que um
+                <strong>tênis.</strong>
+            </h2>
+
+            <p>
+                Uma experiência criada para pessoas
+                que procuram uma combinação de
+                estilo, conforto e inovação.
+            </p>
+
+
+            <div class="benefit-list">
+
+                <div>
+                    <b>01</b>
+                    <span>Leveza para sua rotina</span>
+                </div>
+
+                <div>
+                    <b>02</b>
+                    <span>Amortecimento confortável</span>
+                </div>
+
+                <div>
+                    <b>03</b>
+                    <span>Visual premium e futurista</span>
+                </div>
+
+                <div>
+                    <b>04</b>
+                    <span>Construção pensada para performance</span>
+                </div>
+
+            </div>
+
+
+            <div class="spec-grid reveal">
+
+                <div class="spec-item">
+                    <span>CABEDAL</span>
+                    <strong>Têxtil respirável</strong>
+                </div>
+
+                <div class="spec-item">
+                    <span>SOLADO</span>
+                    <strong>EVA injetado</strong>
+                </div>
+
+                <div class="spec-item">
+                    <span>PESO</span>
+                    <strong>~280g (par 40)</strong>
+                </div>
+
+                <div class="spec-item">
+                    <span>AMORTECIMENTO</span>
+                    <strong>Air Cushion 360°</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TRUST BAR -->
+
+    <section class="trust-bar">
+        <div class="trust-item reveal">
+            <strong>🚚</strong>
+            <span>Frete grátis para todo o Brasil</span>
+        </div>
+        <div class="trust-item reveal">
+            <strong>🔁</strong>
+            <span>Troca grátis em até 30 dias</span>
+        </div>
+        <div class="trust-item reveal">
+            <strong>💳</strong>
+            <span>Parcelamento em até 10x</span>
+        </div>
+        <div class="trust-item reveal">
+            <strong>🔒</strong>
+            <span>Compra 100% segura</span>
+        </div>
+    </section>
+
+
+    <!-- PRODUTOS -->
+
+    <section class="products" id="produtos">
+
+        <div class="cylinder cylinder-products"></div>
+
+        <div class="section-title reveal">
+
+            <span>LOJA LK</span>
+
+            <h2>
+                Escolha o seu
+                <strong>modelo.</strong>
+            </h2>
+
+            <p>
+                Selecione o tamanho e adicione ao carrinho.
+                Numeração em padrão brasileiro.
+            </p>
+
+        </div>
+
+
+        <div class="products-grid">
+
+            <!-- PRODUTO 1 -->
+            <article
+                class="product-card reveal"
+                data-id="lk-performance"
+                data-name="LK Tênis Performance"
+                data-price="225.00"
+                data-installments="10x de R$ 22,50"
+                data-image="WhatsApp_Image_2026-08-28_at_09.54.35-removebg-preview (3).png"
+            >
+
+                <div class="product-card-badge">MAIS VENDIDO</div>
+
+                <div class="product-card-image">
+                    <div class="card-glow"></div>
+                    <img
+                        src="WhatsApp_Image_2026-08-28_at_09.54.35-removebg-preview (3).png"
+                        alt="LK Tênis Performance"
+                    >
+                </div>
+
+                <div class="product-card-info">
+
+                    <span class="product-card-eyebrow">LK PERFORMANCE</span>
+
+                    <h3>Seu próximo <strong>passo.</strong></h3>
+
+                    <p>Tecnologia e estilo em um único produto, para o dia a dia.</p>
+
+                    <div class="product-card-price">
+                        <div class="price-now">R$ 225,00</div>
+                        <div class="price-installments">ou 10x de R$ 22,50</div>
+                    </div>
+
+                    <div class="size-select">
+                        <span class="size-label">Tamanho (BR)</span>
+                        <div class="size-options" role="group" aria-label="Selecionar tamanho">
+                            <button type="button" class="size-btn" data-size="37">37</button>
+                            <button type="button" class="size-btn" data-size="38">38</button>
+                            <button type="button" class="size-btn" data-size="39">39</button>
+                            <button type="button" class="size-btn" data-size="40">40</button>
+                            <button type="button" class="size-btn" data-size="41">41</button>
+                            <button type="button" class="size-btn" data-size="42">42</button>
+                            <button type="button" class="size-btn" data-size="43">43</button>
+                            <button type="button" class="size-btn" data-size="44">44</button>
+                        </div>
+                        <small class="size-warning" hidden>Escolha um tamanho para continuar.</small>
+                    </div>
+
+                    <button type="button" class="add-to-cart-btn">
+                        Adicionar ao carrinho
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUTO 2 -->
+            <article
+                class="product-card reveal"
+                data-id="lk-street"
+                data-name="LK Tênis Street"
+                data-price="159.99"
+                data-installments="10x de R$ 17,99"
+                data-image="Gemini_Generated_Image_wafq75wafq75wafq-removebg-preview.png"
+            >
+
+                <div class="product-card-badge badge-new">NOVO</div>
+
+                <div class="product-card-image">
+                    <div class="card-glow"></div>
+                    <img
+                        src="Gemini_Generated_Image_wafq75wafq75wafq-removebg-preview.png"
+                        alt="LK Tênis Street"
+                    >
+                </div>
+
+                <div class="product-card-info">
+
+                    <span class="product-card-eyebrow">LK STREET</span>
+
+                    <h3>Estilo em <strong>movimento.</strong></h3>
+
+                    <p>Visual urbano com o mesmo conforto e leveza da linha LK.</p>
+
+                    <div class="product-card-price">
+                        <div class="price-now">R$ 159,99</div>
+                        <div class="price-installments">ou 10x de R$ 17,99</div>
+                    </div>
+
+                    <div class="size-select">
+                        <span class="size-label">Tamanho (BR)</span>
+                        <div class="size-options" role="group" aria-label="Selecionar tamanho">
+                            <button type="button" class="size-btn" data-size="37">37</button>
+                            <button type="button" class="size-btn" data-size="38">38</button>
+                            <button type="button" class="size-btn" data-size="39">39</button>
+                            <button type="button" class="size-btn" data-size="40">40</button>
+                            <button type="button" class="size-btn" data-size="41">41</button>
+                            <button type="button" class="size-btn" data-size="42">42</button>
+                            <button type="button" class="size-btn" data-size="43">43</button>
+                            <button type="button" class="size-btn" data-size="44">44</button>
+                        </div>
+                        <small class="size-warning" hidden>Escolha um tamanho para continuar.</small>
+                    </div>
+
+                    <button type="button" class="add-to-cart-btn">
+                        Adicionar ao carrinho
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        LK<span>®</span>
+    </div>
+
+    <p>
+        O futuro começa nos seus pés.
+    </p>
+
+    <div class="footer-line"></div>
+
+    <small>
+        © 2026 LK Tênis. Todos os direitos reservados.
+    </small>
+
+</footer>
+
+
+<!-- CONTA -->
+
+<div class="account-overlay" id="accountOverlay"></div>
+
+<aside class="account-drawer" id="accountDrawer" aria-label="Minha conta">
+
+    <div class="account-header">
+        <h3 id="accountHeaderTitle">Entrar</h3>
+        <button class="cart-close" id="accountClose" aria-label="Fechar">✕</button>
+    </div>
+
+    <div class="account-body">
+
+        <!-- LOGIN -->
+        <form class="account-form" id="loginForm">
+
+            <label>
+                E-mail
+                <input type="email" id="loginEmail" required autocomplete="email">
+            </label>
+
+            <label>
+                Senha
+                <input type="password" id="loginPassword" required autocomplete="current-password">
+            </label>
+
+            <small class="account-error" id="loginError" hidden></small>
+
+            <button type="submit" class="checkout-btn">Entrar</button>
+
+            <p class="account-switch">
+                Ainda não tem conta?
+                <button type="button" class="account-link" id="showSignup">Criar conta</button>
+            </p>
+
+        </form>
+
+        <!-- CADASTRO -->
+        <form class="account-form" id="signupForm" hidden>
+
+            <label>
+                Nome
+                <input type="text" id="signupName" required autocomplete="name">
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" id="signupEmail" required autocomplete="email">
+            </label>
+
+            <label>
+                Telefone / WhatsApp
+                <input type="tel" id="signupPhone" placeholder="(00) 00000-0000" autocomplete="tel">
+            </label>
+
+            <label>
+                Senha
+                <input type="password" id="signupPassword" required autocomplete="new-password" minlength="4">
+            </label>
+
+            <small class="account-error" id="signupError" hidden></small>
+
+            <button type="submit" class="checkout-btn">Criar conta</button>
+
+            <p class="account-switch">
+                Já tem conta?
+                <button type="button" class="account-link" id="showLogin">Entrar</button>
+            </p>
+
+        </form>
+
+        <!-- ÁREA LOGADA -->
+        <div class="account-panel" id="accountPanel" hidden>
+
+            <div class="account-profile">
+                <div class="account-avatar" id="accountAvatar">L</div>
+                <div>
+                    <strong id="accountName">—</strong>
+                    <small id="accountEmail">—</small>
+                </div>
+            </div>
+
+            <div class="account-fieldset">
+                <span class="size-label">Meus dados</span>
+
+                <label>
+                    Nome
+                    <input type="text" id="profileName">
+                </label>
+
+                <label>
+                    Telefone / WhatsApp
+                    <input type="tel" id="profilePhone" placeholder="(00) 00000-0000">
+                </label>
+
+                <button type="button" class="secondary-account-btn" id="saveProfileBtn">Salvar dados</button>
+                <small class="account-saved" id="profileSaved" hidden>Dados salvos ✓</small>
+            </div>
+
+            <div class="account-fieldset">
+                <span class="size-label">Meus pedidos</span>
+                <div id="ordersList" class="orders-list">
+                    <p class="orders-empty" id="ordersEmpty">Você ainda não fez nenhum pedido.</p>
+                </div>
+            </div>
+
+            <button type="button" class="account-logout" id="logoutBtn">Sair da conta</button>
+
+        </div>
+
+    </div>
+
+</aside>
+
+
+<!-- CARRINHO -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-drawer" id="cartDrawer" aria-label="Carrinho de compras">
+
+    <div class="cart-header">
+        <h3>Seu carrinho</h3>
+        <button class="cart-close" id="cartClose" aria-label="Fechar carrinho">✕</button>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+        <div class="cart-empty" id="cartEmpty">
+            <p>Seu carrinho está vazio.</p>
+            <a href="#produtos" class="secondary-btn cart-empty-link">Ver produtos</a>
+        </div>
+    </div>
+
+    <div class="cart-footer" id="cartFooter" hidden>
+        <div class="cart-subtotal-row">
+            <span>Subtotal</span>
+            <strong id="cartSubtotal">R$ 0,00</strong>
+        </div>
+        <small class="cart-footnote">Frete grátis incluso · parcelamento em até 10x</small>
+        <button class="checkout-btn" id="checkoutBtn">Finalizar compra</button>
+    </div>
+
+</aside>
+
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
